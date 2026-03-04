@@ -1,5 +1,5 @@
 
-This project consisted of building a complete virtualization environment using Hyper‑V by creating and configuring a main virtual machine (TP6), then integrating nested virtualization, storage management, internal networking, and multiple checkpoints to replicate the real tasks performed by a system administrator in a professional environment.
+**This project consisted of building a complete virtualization environment using Hyper‑V by creating and configuring a main virtual machine (TP6), then integrating nested virtualization, storage management, internal networking, and multiple checkpoints to replicate the real tasks performed by a system administrator in a professional environment.**
 
 <img width="950" height="309" alt="image" src="https://github.com/user-attachments/assets/990de4e5-0701-420e-b5ad-601e05aacde6" />
 
@@ -91,6 +91,7 @@ Concluison:
  Through the completion of this TP6, I learned how to build a fully functional virtualized environment, automate certain system administration tasks, and gain a deeper understanding of how virtual infrastructures operate. This work provides a strong foundation for managing, troubleshooting, and optimizing Hyper‑V environments in a professional setting.
 
  
+
 
 
 
