@@ -45,7 +45,32 @@ To enable the creation of standard checkpoints with file storage in C:\VMs\TP6,
 
 <img width="1096" height="791" alt="image" src="https://github.com/user-attachments/assets/588b413d-7b88-4a94-b703-31fd9d1b1beb" />
 
+5. creating a file on the new disk TP6
+   <img width="1035" height="362" alt="image" src="https://github.com/user-attachments/assets/3bf1df4a-ca4c-445a-8dfa-f8c6ec3d924e" />
+
+6. create the checkpoint to capture the addition and use of the new virtual disk.
+   <img width="946" height="365" alt="image" src="https://github.com/user-attachments/assets/7ef23b4f-fe05-4a68-845b-9902131819e5" />
+```powershell
+For this step, I turn off the TP6 virtual machine, then in Hyper‑V Manager I right‑clicked on the VM and selected “Checkpoint” to generate a snapshot.
+ Once the checkpoint was created, I simply renamed it CheckPoint2_06 to match the parameters required for the assignment.
+```
+7. Perform the required steps to create the STP6 nested virtual machine inside TP6, configured with 1GB of RAM and a 5GB virtual hard disk.
+   
+```powershell
+   On the host machine, follow the required steps (see screenshot) to allow TP6 to enable Hyper‑V and support nested virtualization.
+```
+<img width="1275" height="366" alt="image" src="https://github.com/user-attachments/assets/57ab714f-43ef-4e52-ad97-9ec1650e7702" />
+
+then on the VM TP6 we will do:
+<img width="1270" height="1349" alt="image" src="https://github.com/user-attachments/assets/e63872c8-3d72-439f-af48-59c374bf9199" />
+
+<img width="859" height="369" alt="image" src="https://github.com/user-attachments/assets/3521dd06-d918-4ccc-b56b-2e2ae3b16149" />
+This screenshot shows the final screen of the virtual machine creation wizard for STP6 in Hyper‑V. The red box displays a complete summary of the selected configuration: the VM name (STP6), the generation type (Generation 2), the assigned memory (1024 MB, or 1 GB), the network status (Not Connected), and the location of the virtual hard disk created for this machine. This screen is only used to verify that all parameters are correct before creating the VM. To finalize the creation of STP6, simply click the Finish button, indicated by the red arrow.
+
+
+
  
+
 
 
 
