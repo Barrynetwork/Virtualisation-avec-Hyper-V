@@ -38,7 +38,13 @@ To enable the creation of standard checkpoints with file storage in C:\VMs\TP6,
       First, right‑click on the VM, then select “Connect” to access it and complete the configuration.
      Finally, initialize and format the disk as shown in the screenshot.
      ```
-     <img width="1265" height="1324" alt="image" src="https://github.com/user-attachments/assets/4a4afa8e-804c-4258-926b-41f9c2e9c2a3" />
+
+   <img width="1125" height="320" alt="image" src="https://github.com/user-attachments/assets/5dc67803-e415-4c20-baf3-189465d90b02" />
+
+ <img width="1265" height="615" alt="image" src="https://github.com/user-attachments/assets/34cc1262-1bd0-4655-b6ed-917e6ed490d7" />
+ <img width="1265" height="1220" alt="image" src="https://github.com/user-attachments/assets/7524ca4c-44b4-4bff-abe8-7049fab08564" />
+
+ 
 
 
 
