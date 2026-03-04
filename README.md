@@ -1,6 +1,6 @@
-```powershell
+
 This project consisted of building a complete virtualization environment using Hyper‑V by creating and configuring a main virtual machine (TP6), then integrating nested virtualization, storage management, internal networking, and multiple checkpoints to replicate the real tasks performed by a system administrator in a professional environment.
-```
+
 <img width="950" height="309" alt="image" src="https://github.com/user-attachments/assets/990de4e5-0701-420e-b5ad-601e05aacde6" />
 
 
@@ -87,9 +87,11 @@ The screenshot shows the creation of the CheckPoint3_06 checkpoint, which appear
 This screenshot displays the complete hierarchy of checkpoints for the TP6 virtual machine in Hyper‑V. The first checkpoint, CheckPoint1_06, captures the initial state of the VM right after its creation. The second, CheckPoint2_06, records the state of the system after adding the 1 GB disk, initializing and formatting it (drive J:, label TP6_06), and creating the file file_06.txt. From this point, the VM evolves along two separate paths: CheckPoint3_06, which reflects the nested virtualization setup (installation of Hyper‑V inside TP6 and creation of the nested VM STP6), and CheckPoint4_06, which represents the network configuration step where TP6 is connected to an Internal virtual switch.
 
 
-
+Concluison:
+ Through the completion of this TP6, I learned how to build a fully functional virtualized environment, automate certain system administration tasks, and gain a deeper understanding of how virtual infrastructures operate. This work provides a strong foundation for managing, troubleshooting, and optimizing Hyper‑V environments in a professional setting.
 
  
+
 
 
 
