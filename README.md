@@ -41,10 +41,12 @@ To enable the creation of standard checkpoints with file storage in C:\VMs\TP6,
 
    <img width="1125" height="320" alt="image" src="https://github.com/user-attachments/assets/5dc67803-e415-4c20-baf3-189465d90b02" />
 
- <img width="1265" height="615" alt="image" src="https://github.com/user-attachments/assets/34cc1262-1bd0-4655-b6ed-917e6ed490d7" />
- <img width="1265" height="1220" alt="image" src="https://github.com/user-attachments/assets/7524ca4c-44b4-4bff-abe8-7049fab08564" />
+ <img width="1173" height="299" alt="image" src="https://github.com/user-attachments/assets/bf5e03ea-0608-4dbc-9371-2f068686d486" />
+
+<img width="1096" height="791" alt="image" src="https://github.com/user-attachments/assets/588b413d-7b88-4a94-b703-31fd9d1b1beb" />
 
  
+
 
 
 
