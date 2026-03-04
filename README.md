@@ -33,6 +33,15 @@ To enable the creation of standard checkpoints with file storage in C:\VMs\TP6,
    ```
    <img width="1219" height="1244" alt="image" src="https://github.com/user-attachments/assets/a167db40-0c5b-4eaa-9743-916af825df14" />
 
+   4. Initialize and format the new disk using the default settings
+     ```powershell
+      First, right‑click on the VM, then select “Connect” to access it and complete the configuration.
+     Finally, initialize and format the disk as shown in the screenshot.
+     ```
+     <img width="1265" height="1324" alt="image" src="https://github.com/user-attachments/assets/4a4afa8e-804c-4258-926b-41f9c2e9c2a3" />
+
+
+
 
 
 
