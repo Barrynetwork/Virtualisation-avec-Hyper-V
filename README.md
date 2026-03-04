@@ -3,9 +3,9 @@ This project consisted of building a complete virtualization environment using H
 ```
 <img width="950" height="309" alt="image" src="https://github.com/user-attachments/assets/990de4e5-0701-420e-b5ad-601e05aacde6" />
 
-Voici la traduction en anglais :
 
-#Create the VM named TP6 with the following configuration
+
+1. Create the VM named TP6 with the following configuration
 ```powershell
 Right‑click on the server, then:
 ```
@@ -15,12 +15,25 @@ Right‑click on the server, then:
 
 The screenshot shows a summary confirming all the parameters configured for the TP6 virtual machine: name, Generation 2, 6 GB of memory, a 40 GB virtual disk stored in C:\VMs\TP6, no network connection, and installation of the system from the Windows Server 2022 ISO. You simply need to click Finish to complete the creation of the virtual machine.
 
+```powershell
+To enable the creation of standard checkpoints with file storage in C:\VMs\TP6,
+ right‑click on the TP6 virtual machine and then select the corresponding option.
+```
 <img width="529" height="373" alt="image" src="https://github.com/user-attachments/assets/11659caf-11bf-40ef-8d9c-2dfe40a28bcc" />
 <img width="757" height="374" alt="image" src="https://github.com/user-attachments/assets/7ad49189-c766-407e-a08f-5553975fbe5b" />
-Voici la traduction en anglais :
-**To enable the creation of standard checkpoints with file storage in C:\VMs\TP6, right‑click on the TP6 virtual machine and then select the corresponding option.**
 
-Si tu veux, je peux aussi reformuler pour un README ou un rapport !
+2. Create the checkpoint whose name is provided in Parameter1 to capture the initial configuration of your TP6 virtual machine.
+
+   To create the checkpoint, you must first power off the VM, then right‑click on it and select the appropriate option
+   <img width="1256" height="281" alt="image" src="https://github.com/user-attachments/assets/8f495fa2-d746-4bec-8b22-5fa191825b0a" />
+
+
+   
+
+
+
+
+
 
 
 
