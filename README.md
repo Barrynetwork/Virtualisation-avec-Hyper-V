@@ -66,10 +66,31 @@ then on the VM TP6 we will do:
 
 <img width="859" height="369" alt="image" src="https://github.com/user-attachments/assets/3521dd06-d918-4ccc-b56b-2e2ae3b16149" />
 This screenshot shows the final screen of the virtual machine creation wizard for STP6 in Hyper‑V. The red box displays a complete summary of the selected configuration: the VM name (STP6), the generation type (Generation 2), the assigned memory (1024 MB, or 1 GB), the network status (Not Connected), and the location of the virtual hard disk created for this machine. This screen is only used to verify that all parameters are correct before creating the VM. To finalize the creation of STP6, simply click the Finish button, indicated by the red arrow.
+<img width="592" height="262" alt="image" src="https://github.com/user-attachments/assets/a84b7831-eb76-461a-9317-274470dcd805" />
+
+
+8. For the TP6 virtual machine, create another checkpoint to capture the addition of the disk and the nested virtualization configuration.
+<img width="956" height="340" alt="image" src="https://github.com/user-attachments/assets/510c3035-ac13-4959-b572-78f662d14644" />
+
+
+The screenshot shows the creation of the CheckPoint3_06 checkpoint, which appears as a new branch under CheckPoint2_06 in Hyper‑V Manager. This checkpoint plays an important role: it records the complete state of the TP6 virtual machine after enabling nested virtualization and creating the STP6 nested VM. It serves as a safe restore point, allowing you to return to this fully configured environment without repeating the complex steps involved in installing Hyper‑V inside TP6 and generating the nested virtual machine. In other words, CheckPoint3_06 captures and preserves the system state prepared for nested virtualization, as required in part 8 of the assignment.
+
+9. Starting from the checkpoint created in step 6, connect your TP6 virtual machine to an Internal‑type virtual switch.
+
+    On the host machine, right‑click on the server, then proceed as shown in the screenshot.
+   <img width="1251" height="907" alt="image" src="https://github.com/user-attachments/assets/05a5eb3e-1760-4ab6-a429-ccfb66508add" />
+
+10. Create another checkpoint to capture the addition of the disk and the network connection.
+
+    <img width="836" height="371" alt="image" src="https://github.com/user-attachments/assets/4a8a658c-5279-4a90-a1ba-22df86534abc" />
+
+This screenshot displays the complete hierarchy of checkpoints for the TP6 virtual machine in Hyper‑V. The first checkpoint, CheckPoint1_06, captures the initial state of the VM right after its creation. The second, CheckPoint2_06, records the state of the system after adding the 1 GB disk, initializing and formatting it (drive J:, label TP6_06), and creating the file file_06.txt. From this point, the VM evolves along two separate paths: CheckPoint3_06, which reflects the nested virtualization setup (installation of Hyper‑V inside TP6 and creation of the nested VM STP6), and CheckPoint4_06, which represents the network configuration step where TP6 is connected to an Internal virtual switch.
+
 
 
 
  
+
 
 
 
