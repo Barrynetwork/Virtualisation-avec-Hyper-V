@@ -27,8 +27,13 @@ To enable the creation of standard checkpoints with file storage in C:\VMs\TP6,
    To create the checkpoint, you must first power off the VM, then right‑click on it and select the appropriate option
    <img width="1256" height="281" alt="image" src="https://github.com/user-attachments/assets/8f495fa2-d746-4bec-8b22-5fa191825b0a" />
 
+3. Add a new empty disk to your TP6 virtual machine
+   ```powershell
+   To add a new disk, right‑click on the virtual machine and then follow the steps shown in the screenshots.
+   ```
+   <img width="1219" height="1244" alt="image" src="https://github.com/user-attachments/assets/a167db40-0c5b-4eaa-9743-916af825df14" />
 
-   
+
 
 
 
